@@ -13,7 +13,7 @@ const Restaurant=() =>{
     return(
         <>
         <nav className="navbar">
-            <div className="btn-group"l>
+            <div className="btn-group" align="center">
                 <button className="btn-group__item" onClick={()=>filterItem("Breakfast")}>Breakfast</button>
                 <button className="btn-group__item" onClick={()=>filterItem("Lunch")}>Lunch</button>
                 <button className="btn-group__item" onClick={()=>filterItem("Evening")}>Evening</button>

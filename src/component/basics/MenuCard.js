@@ -13,13 +13,13 @@ const MenuCard =({x}) =>{
                 <div/>
                 <span className="card-author subtle">{cur.name}</span>
                 <h2 className="card-title subtle">{cur.category}</h2>
-                {/* <p className="card-description subtle">I love Maggi really oo yues Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in. 
-                </p>*/}
                 <p className="card-description subtle">{cur.description}</p>
                 <div>
-                    {/* { <img src={cur.image} alt="images" className="card-media"></img>} */}
+                      <img src={cur.image} alt="images" className="card-media subtle"></img>
+                      <br />
                     <span className="card-tag subtle">Order Now</span>
                 </div>
+                <br/>
             </div>
         </div>
     </div>
