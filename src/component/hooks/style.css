@@ -1,0 +1,42 @@
+.back{
+    background-color: black;
+    padding-top: 250px;
+    padding-left: 410px;
+    font-size: 50px;
+}
+.span1{
+    color: white;
+}
+.span3{
+    padding-top: 30px;
+}
+.span5{
+    padding-left: 320px;
+}
+.span6{
+    padding-left:60px
+}
+.span4{
+    color: white;
+    padding:15px;
+    transition: border 2s ease;
+}
+.span4:hover{
+    border: solid 1px;
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color:yellow;
+}
+.span2:hover{
+    border: solid 1px;
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color:brown
+}
+.span2{
+    color: white;
+    padding:15px;
+    transition:border 1s ease;
+}
