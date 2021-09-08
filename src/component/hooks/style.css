@@ -1,7 +1,6 @@
 .back{
     background-color: black;
     padding-top: 250px;
-    padding-left: 410px;
     font-size: 50px;
 }
 .span1{
@@ -9,9 +8,6 @@
 }
 .span3{
     padding-top: 30px;
-}
-.span5{
-    padding-left: 320px;
 }
 .span6{
     padding-left:60px
