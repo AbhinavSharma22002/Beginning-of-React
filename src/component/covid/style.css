@@ -55,8 +55,15 @@
         float: left;
     }
     }
-    
-    
+    .last_div{
+        background-color: yellow;
+        color:darkslateblue;
+        font-size: 20px;
+        border: solid 2px cyan;
+        width: 370px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
     @media(max-width: 991px){
     .col-sm-1{
         border: solid white;

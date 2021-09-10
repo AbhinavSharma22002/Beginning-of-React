@@ -11,15 +11,15 @@ const Ty=({dat})=>{
     else{
         const keys = Object.keys(ent[0][1].total);
         const val = Object.values(ent[0][1].total);
-     return( 
-        <>
-        {ent.map((cur)=>{
+        const val_time=Object.values(ent[0][1].meta);
+        console.log(val_time);
             return (
             <>   
+            <div className="last_div">Last Updated: {val_time[1]}</div>
         <div className="card-container col-lg-1 col-sm-1 t1">
                 <div className="card">
                     <div className="card-body">
-                        <h2 className="card-title subtle" align="center"><b>{keys[0]}</b></h2>
+                        <h1 className="card-title subtle" align="center"><b>{keys[0]}</b></h1>
                         <div className="main-data">
                             {val[0]}
                         </div>
@@ -85,10 +85,7 @@ const Ty=({dat})=>{
 
             
             </>
-            );
 
-        })}
-        </>
      );
     }
         
