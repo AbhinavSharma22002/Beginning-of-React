@@ -7,7 +7,6 @@ const MenuCard =({x}) =>{
             return (
             <>   
         <div className="card-container col-lg-1 col-sm-1" key={cur.id}>
-           <div className="card">
             <div className="card-body">
                 <span className="card-number card-circle subtle">{cur.id}</span>
                 <div/>
@@ -15,13 +14,12 @@ const MenuCard =({x}) =>{
                 <h2 className="card-title subtle">{cur.category}</h2>
                 <p className="card-description subtle">{cur.description}</p>
                 <div>
-                      <img src={cur.image} alt="images" className="card-media subtle"></img>
+                      <img src={cur.image} className="card-media subtle"></img>
                       <br />
                     <span className="card-tag subtle">Order Now</span>
                 </div>
                 <br/>
             </div>
-        </div>
     </div>
     </>
             );

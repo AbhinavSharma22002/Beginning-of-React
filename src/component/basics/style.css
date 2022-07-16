@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 .card-container{
+    box-sizing: unset;
      background: darkcyan; 
      border-radius: 2%;
      box-shadow:inset 4px 3px 8px 1px #969696; 
@@ -55,6 +56,7 @@
 	height: 180%;
 }
 /*end of button hover*/
+
 .btn-group{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -124,6 +126,7 @@
 }
 
 
+
 .card-circle{
     font-size: 1.5em;
     background: greenyellow;
@@ -143,6 +146,5 @@
 }
 .card-tag{
     font-size: 1.5em;
-    display: inline-block;
     margin-top: 40px;
 }
